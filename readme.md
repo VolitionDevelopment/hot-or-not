@@ -9,3 +9,4 @@ You are given a picture and you must decide if it is hot or not. Votes are store
 - Node.js
 - Express
 - MongoDB
+- Jade
