@@ -2,6 +2,8 @@ img {
   display: block;
   margin: auto;
   width: 500px; }
+  img .small-img {
+    width: 50px; }
 
 .btn {
   margin: 10px;

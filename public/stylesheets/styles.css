@@ -4,8 +4,12 @@ img {
   margin: auto;
   width: 500px;
 }
+/* line 6, ../../compass/sass/styles.scss */
+img .small-img {
+  width: 50px;
+}
 
-/* line 7, ../../compass/sass/styles.scss */
+/* line 11, ../../compass/sass/styles.scss */
 .btn {
   margin: 10px;
   width: 40%;

@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  h1 Standings #[small View the total votes for each image]
+
+  hr
+
+  table(class="table table-striped")
+    thead
+      tr
+        th Image
+        th Total Votes
+    tbody
+      each image in theStandings
+        tr
+          td
+            img(src='images/#{image.image}.jpg' style='width: 250px;')
+          td= image.totalVotes
