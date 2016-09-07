@@ -1,10 +1,12 @@
 /* line 1, ../../compass/sass/styles.scss */
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+img {
+  display: block;
+  margin: auto;
+  width: 500px;
 }
 
-/* line 6, ../../compass/sass/styles.scss */
-a {
-  color: #00B7FF;
+/* line 7, ../../compass/sass/styles.scss */
+.btn {
+  margin: 10px;
+  width: 40%;
 }

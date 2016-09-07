@@ -1,5 +1,15 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div.text-center
+    h1 A Node.js voting app. Is this photo hot or not?
+    div#image
+      img(src='images/#{imageToRender}.jpg')
+
+      form(action='hotornot' method='post')
+        input(type='hidden' name='image' value='#{imageToRender}')
+        button(class='btn btn-lg btn-danger' name='submit' type='submit' value='Hot'): i(class='fa fa-fire') &nbsp; HOT!
+
+      form(action='hotornot' method='post')
+        input(type='hidden' name='image' value='#{imageToRender}')
+        button(class='btn btn-lg btn-primary' name='submit' type='submit' value='Not'): i(class='fa fa-close') &nbsp; Not...

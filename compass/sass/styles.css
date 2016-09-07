@@ -1,8 +1,10 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+img {
+  display: block;
+  margin: auto;
+  width: 500px; }
 
-a {
-  color: #00B7FF; }
+.btn {
+  margin: 10px;
+  width: 40%; }
 
 /*# sourceMappingURL=styles.css.map */
