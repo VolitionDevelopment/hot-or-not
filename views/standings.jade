@@ -5,7 +5,7 @@ block content
 
   hr
 
-  table(class="table table-striped")
+  table(class="table table-striped text-center")
     thead
       tr
         th Image
@@ -15,4 +15,9 @@ block content
         tr
           td
             img(src='images/#{image.image}.jpg' style='width: 250px;')
-          td= image.totalVotes
+          td
+            h2= image.totalVotes
+            if image.totalVotes > 0
+              h3: span(class='label label-danger') HOT!
+            else
+              h3: span(class='label label-primary') NOT HOT!
